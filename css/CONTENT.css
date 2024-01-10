@@ -1,0 +1,80 @@
+#main_menu{
+  list-style:none;
+  padding: 0;
+
+}
+
+#main_menu li{
+  display: inline-block;
+}
+
+#main_menu li a{
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(246, 246, 246);
+  
+}
+
+#main_menu li a:hover{
+  color: brown;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(41, 41, 41);
+}
+
+
+body, html {
+  height: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image:image(05.jpg)
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}

@@ -1,0 +1,39 @@
+#main_menu{
+    list-style:none;
+    padding: 0;
+
+}
+
+#main_menu li{
+    display: inline-block;
+    justify-content: right;
+}
+
+#main_menu li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    
+}
+
+#main_menu li a:hover{
+    color: brown;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.column {
+    float: left;
+    width: 32%;
+    padding: 10px;
+  }
+  
+  .row::after {
+    content:none;
+    clear: both;
+    display: table;
+  }

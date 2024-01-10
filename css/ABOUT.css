@@ -1,0 +1,58 @@
+.avatar {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+
+  }
+
+
+#main_menu{
+  list-style:none;
+  padding: 0;
+
+}
+
+#main_menu li{
+  display: inline-block;
+}
+
+#main_menu li a{
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(246, 246, 246);
+  
+}
+
+#main_menu li a:hover{
+  color: brown;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(41, 41, 41);
+}
+
+
+h1{
+    display: block;
+    font-size: 0.5cm;
+    padding: 5px 0;
+    text-align: center;
+    color: rgb(246, 246, 246);
+    font-family:'Times New Roman', Times, serif
+}
+
+h2 {
+    display: block;
+    font-size: 0.5cm;
+    padding: 5px 0;
+    text-align: center;
+    color: rgb(246, 246, 246);
+}
+
+
+
